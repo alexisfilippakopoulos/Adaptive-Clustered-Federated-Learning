@@ -1,0 +1,17 @@
+## Do not change the names of the variables only their values. 
+-------------# Minimum number of connected clients to start a global round-------------
+min_clients_start = 4
+-------------# Minimum number of client updates to perform aggregation-------------
+min_clients_fit = 4
+-------------# Number of total pre-training rounds-------------
+pretrain_epochs = 2
+-------------# Number of total global training rounds-------------
+global_epochs = 150
+-------------# Number of data samples per batch-------------
+batch_size = 64
+-------------# Optimizer learning rate/step-------------
+learning_rate = 0.01
+-------------# Loss function -> Supports: CrossEntropy-------------
+criterion = CrossEntropy
+-------------# Optimizer -> Supports: SGD, Adam-------------
+optimizer = SGD
